@@ -1,0 +1,8 @@
+[    2870ms] Error: Bot is not defined
+    at http://localhost:3000/_next/static/chunks/src_1a12d04b._.js:991:246
+    at Array.map (<anonymous>)
+    at MessageList (http://localhost:3000/_next/static/chunks/src_1a12d04b._.js:984:32)
+    at ChatInterface (http://localhost:3000/_next/static/chunks/src_1a12d04b._.js:1524:233)
+    at MainContent (http://localhost:3000/_next/static/chunks/src_1a12d04b._.js:4316:253)
+    at Home (rsc://React/Server/file:///Users/cholyoon/Claude_Projects/uigen/.next/server/chunks/ssr/%5Broot-of-the-server%5D__eac671dd._.js?2:8711:263)
+[   64995ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_8f19e6fb._.js:15306

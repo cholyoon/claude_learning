@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/cholyoon/Claude_Projects/uigen/src/app/[projectId]/)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright"
+    ]
+  }
+}
