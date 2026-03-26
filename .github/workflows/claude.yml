@@ -47,13 +47,13 @@ jobs:
             If needed you can quary 'sqlite3' cli. If needed, use mcp__playwright set of tools to launch the browser and interact with the app
 
 
-          mcp_config:
+          mcp_config: |
             {
               "mcpServers": {
                 "playwright": {
                   "command": "npx",
                   "args": [
-                    "playwright/mcp@latest",
+                    "@playwright/mcp@latest",
                     "--allowed-origins",
                     "localhost:3000;cdn.tailwindcss.com;esm.sh"
                   ]
@@ -61,7 +61,7 @@ jobs:
               }
             }
 
-            allowed_tools:"Bash(npm:*),Bash(sqlite3:*),mcp_playwright__browser__snapshot,mcp__playwright__click,..."
+            allowed_tools: "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,..."
 
           # This is an optional setting that allows Claude to read CI results on PRs
           additional_permissions: |
